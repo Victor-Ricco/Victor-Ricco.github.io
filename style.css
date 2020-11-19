@@ -1,0 +1,28 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #ff9f1c;
+    line-height: 20px;
+    color: #002849;
+  }
+  .title-style{
+    color: #011627;
+    font-weight: 600;
+  }
+  .some-texts-align{
+    text-align: center;
+  }
+  .my-img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  }
+  .inicial-text{
+    font-size: 20px;
+  }
+  ol{
+    line-height: 30px;
+  }
+  ul{
+    line-height: 30px;
+  }
