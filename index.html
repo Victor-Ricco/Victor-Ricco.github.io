@@ -3,19 +3,51 @@
   <head>
     <meta charset="UTF-8">
     <title>Portifolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   </head>
+  <style>
+    body{
+      font-family: 'Josefin Sans', sans-serif;
+      background-color: #ff9f1c;
+      line-height: 20px;
+      color: #002849;
+    }
+    .title-style{
+      color: #011627;
+      font-weight: 600;
+    }
+    .some-texts-align{
+      text-align: center;
+    }
+    .my-img{
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    }
+    .inicial-text{
+      font-size: 20px;
+    }
+    ol{
+      line-height: 30px;
+    }
+    ul{
+      line-height: 30px;
+    }
+  </style>
   <body>
-    <h1>Meu Portifolio</h1>
-    <h2>Indice</h2>
+    <h1 class="title-style some-texts-align">Meu Portifolio</h1>
+    <h2 class="title-style some-texts-align" id="myApr">Ola!</h2>
+    <img class="my-img"src="https://scontent.fcgh8-1.fna.fbcdn.net/v/t1.0-9/119194541_155698762852429_2997436748445837010_n.jpg?_nc_cat=105&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeELK4nposWDEPJXaFR-D8FHYOli3vEdICtg6WLe8R0gK2gLZ1p2Xz92_BMo1lzUdBcJK76wW_DvasBFqRfVMatf&_nc_ohc=PMALWakCYUsAX8JzbL8&_nc_ht=scontent.fcgh8-1.fna&oh=61839f37f300a4767eb63513b3241dc3&oe=5FD9CA5C" id="imagem" width="150px" alt="Imagem de Victor Ricco">
+    <p class="some-texts-align inicial-text">Me chamo <strong>Victor Ricco e Silva</strong>!<br>Sou <strong>Brasileiro</strong> e moro em <strong>Sao Paulo | SP</strong>.</p>
+    <h3 class="title-style">Indice</h3>
     <ol>
-        <li><a href="#myApr">Minha Apresentacao</a></li>
+        <li><a href="#myApr">Ola!</a></li>
         <li><a href="#lsHab">Lista de habilidades</a></li>
         <li><a href="#sitesFav">Sites Favoritos</a></li>
     </ol>
-    <h3 id="myApr">Minnha Apresentacao</h3>
-    <img src="https://scontent.fcgh8-1.fna.fbcdn.net/v/t1.0-9/119194541_155698762852429_2997436748445837010_n.jpg?_nc_cat=105&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeELK4nposWDEPJXaFR-D8FHYOli3vEdICtg6WLe8R0gK2gLZ1p2Xz92_BMo1lzUdBcJK76wW_DvasBFqRfVMatf&_nc_ohc=PMALWakCYUsAX8JzbL8&_nc_ht=scontent.fcgh8-1.fna&oh=61839f37f300a4767eb63513b3241dc3&oe=5FD9CA5C" id="imagem" width="150px" alt="Imagem de Victor Ricco">
-    <p>Ola me chamo <strong>Victor Ricco e Silva</strong>!!<br>Sou <strong>Brasileiro</strong> e moro em <strong>Sao Paulo | SP</strong>.</p>
-    <h3 id="lsHab">Lista de habilidades</h3>
+    <h3 class="title-style" id="lsHab">Lista de habilidades</h3>
     <ul>
         <li><strong>Paciencia</strong></li>
         <li>Autodisciplina</li>
@@ -24,7 +56,7 @@
         <li>Capacidade de ensino</li>
         <li>Cooperacao</li>
     </ul>
-    <h3 id="sitesFav">Sites Favoritos</h3>
+    <h3 class="title-style" id="sitesFav">Sites Favoritos</h3>
     <ul>
         <li><em><a href="https://www.betrybe.com/" target="_blank">Trybe</a></em></li>
         <li><em><a href="https://pt.stackoverflow.com/" target="_blank">Stack Overflow</a></em></li>
