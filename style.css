@@ -16,9 +16,16 @@ body{
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
+  border:inset 5px #003e70;
+  padding:2px;
   }
   .inicial-text{
     font-size: 20px;
+  }
+  #head{
+    background:#b9700a ;
+    padding-top: 1px;
+    padding-bottom: 1px;
   }
   ol{
     line-height: 30px;
