@@ -16,8 +16,8 @@ body{
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
-  border:inset 5px #003e70;
-  padding:2px;
+  border:groove 5px #003e70;
+  padding:2px black;
   }
   .inicial-text{
     font-size: 20px;
@@ -26,6 +26,14 @@ body{
     background:#b9700a ;
     padding-top: 1px;
     padding-bottom: 1px;
+  }
+  #sumary{
+    position: absolute;
+    right: 8px;
+    background: #b9700a;
+    width: 200px;
+    padding: 3px;
+    border-top: dashed;
   }
   ol{
     line-height: 30px;
