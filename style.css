@@ -76,11 +76,6 @@ h2 {
 #arrowImg {
   display: flex;
   justify-content: center;
-  background: url(./imgs/nat.jpeg);
-}
-
-#glitch {
-  background: url(./imgs/nat.jpeg);
 }
 
 /* Solucao do efeito glicht retirado do site https://codepen.io/FelixRilling/pen/vNJoMy*/
